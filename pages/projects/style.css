@@ -202,3 +202,10 @@ animation: fadeDown cubic-bezier(.6,.26,.65,.85) 500ms forwards;
 
 100% { opacity: 1; transform: translateX(0%) translateY(0%) }
 }
+
+
+@media (min-width: 1400px) {
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  max-width: 1320px;
+}
+}
