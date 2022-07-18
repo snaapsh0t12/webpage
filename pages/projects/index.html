@@ -22,30 +22,23 @@
 </head>
 
 <body>
-
   <!-- Where Navbar Starts-->
   <nav class="navbar navbar-expand-lg navbar-dark hmmm">
     <div class="container-fluid">
-        <a class="navbar-brand large-text px-5" href="/">Aiden Lee</a>
+        <a  class="navbar-brand large-text px-5 fade-down" href="/"> Aiden <!-- where icon area goes --> </a>
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <!--<li class="nav-item">
-              <a class="nav-link text-light" href="/yes">YES</a>
-            </li>-->
-            <li class="nav-item">
-              <a class="nav-link large-text text-light" href="/pages/about">About</a>
+
+            <li style="animation-delay: 0.3s" class="fade-down nav-item px-4">
+              	<a  class="nav-link text-light" href="/pages/contact">Contact</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link large-text text-light" href="/pages/contact">Contact</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link large-text text-light" href="/pages/projects">Projects</a>
+            <li id="fade-down" class="fade-down nav-item px-4">
+              	<a class="nav-link text-light" href="/pages/projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -54,20 +47,18 @@
 
   <!-- content -->
     <div class="container">
-        <div class="">
-            <h1 class="text-center pt-3">What all have I done?</h1>
-            <h2 class="text-center">Well that's exactly what this page is for</h2>
-            
-
-            
-
-        </div>
+      	<div class="d-flex justify-content-center">
+			<div class="w-75 py-5">
+				<h4 id="fade-in" class="above-text fade-in">Hello There</h4>
+				<h1 id="fade-in" class="primary-header fade-in">Projects Will Go Here</h1>
+				<h1 id="fade-in" class="secondary-header fade-in">I'm too lazy to make it at the moment</h1>
+			</div>
+      	</div>
     </div>
-    
 
   <!-- footer -->
 
-  <div class="container footer">
+  <div class="container footer fixed-bottom">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <span class="text">2022 Aiden Lee</span>
