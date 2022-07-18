@@ -164,15 +164,16 @@ body {
   }
 
 .fade-in {
-	animation: fadeIn ease-out 0.5s forwards;
+	opacity: 0;
+	animation: fadeIn ease-out 2s forwards;
 }
 
-#first {animation-delay: 500ms;}
-#second {animation-delay: 200ms;}
-#third {animation-delay: 300ms;}
-#fourth {animation-delay: 400ms;}
-#fifth {animation-delay: 500ms;}
-#sixth {animation-delay: 1000ms;}
+#fade-in:nth-child(1) {animation-delay: 1s;}
+#fade-in:nth-child(2) {animation-delay: 2s;}
+#fade-in:nth-child(3) {animation-delay: 3s;}
+#fade-in:nth-child(4) {animation-delay: 4s;}
+#fade-in:nth-child(5) {animation-delay: 5s;}
+#fade-in:nth-child(6) {animation-delay: 6s;}
 
 @keyframes fadeIn {
 	0% { opacity: 0; transform: translateX(100px) translateY(50px)}
